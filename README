@@ -1,0 +1,6 @@
+appex
++++++
+
+  1). pip install pex
+
+  2). pex -r requirements.txt -e appex.__main__:main -D src -o appex.pex
